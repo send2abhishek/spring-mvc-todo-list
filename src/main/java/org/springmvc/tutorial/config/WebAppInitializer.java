@@ -1,4 +1,4 @@
-package org.springmvc.tutorial.cofig;
+package org.springmvc.tutorial.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.WebApplicationInitializer;

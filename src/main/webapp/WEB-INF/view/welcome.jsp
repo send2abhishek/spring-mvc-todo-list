@@ -3,7 +3,7 @@
 <head>Welcome</head>
 <body>
 
-<h1>Welcome</h1>
+<h1>Welcome ${name}</h1>
 
 <p>My first paragraph.</p>
 

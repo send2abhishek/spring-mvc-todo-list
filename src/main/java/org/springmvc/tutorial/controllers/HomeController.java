@@ -9,8 +9,13 @@ public class HomeController {
 
     @ResponseBody
     @GetMapping("/test")
-    public String getResponseFormList(){
-
+    public String getResponseFormList() {
         return "test";
+    }
+
+    // this will be return the welcome.jsp page when we visit the url
+    @GetMapping("greet")
+    public String welcome() {
+        return "welcome";
     }
 }
